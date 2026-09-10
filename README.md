@@ -10,9 +10,8 @@ Migrated an older MacBook from macOS to Linux Mint.
 
 ## Objectives
 - Replace the original macOS installation
-- Prepare the Mac for Linux
-- Create a bootable Linux Mint USB
-- Boot the Mac from external media
+- Create bootable Linux Mint installation media
+- Prepare the Mac's internal storage
 - Install Linux Mint
 - Verify hardware and network functionality
 
@@ -24,16 +23,16 @@ Migrated an older MacBook from macOS to Linux Mint.
 
 ## Installation Process
 
-### 1. Accessing Internet Recovery
+### 1. Preparing the Linux Mint Installation Media
 ...
 
-### 2. Erasing the macOS Installation
+### 2. Accessing macOS Internet Recovery
 ...
 
-### 3. Creating the Linux Mint Bootable USB
+### 3. Erasing the Original macOS Installation
 ...
 
-### 4. Booting From USB
+### 4. Booting From the Linux Mint USB
 ...
 
 ### 5. Installing Linux Mint
