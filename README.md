@@ -16,10 +16,11 @@ Migrated an older MacBook from macOS to Linux Mint.
 - Verify hardware and network functionality
 
 ## Hardware
-- MacBook: [model/year]
-- CPU: [...]
-- RAM: [...]
-- Storage: [...]
+- MacBook model: MacBook Pro (13-inch, Mid 2012) 
+- CPU: 2.5 GHz Dual-Core Intel Core i5
+- RAM: 4 GB 1600 MHz DDR3
+- Storage: 1 TB SATA SSD
+- GPU: Intel HD Graphics 4000
 
 ## Installation Process
 
