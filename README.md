@@ -44,6 +44,8 @@ After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities e
 
 I selected **Reinstall macOS** and installed macOS Catalina.
 
+![macOS Catalina desktop after recovery](screenshots/MacOS_1.jpg)
+
 ### Original System Information
 
 After restoring macOS, I used **About This Mac** to document the original
