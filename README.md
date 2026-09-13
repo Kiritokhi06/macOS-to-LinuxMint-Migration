@@ -38,28 +38,85 @@ Internet Recovery was accessed using:
 
 Option + Command + R (held while MacBook was turning on)
 
-## Installation Process
+After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities environment.
 
-### 1. Preparing the Linux Mint Installation Media
-...
+I selected **Reinstall macOS** and installed macOS Catalina.
 
-### 2. Accessing macOS Internet Recovery
-...
+### Original System Information
 
-### 3. Erasing the Original macOS Installation
-...
+After restoring macOS, I used **About This Mac** to document the original
+hardware.
 
-### 4. Booting From the Linux Mint USB
-...
+The MacBook contained a 1 TB SATA solid-state drive.
 
-### 5. Installing Linux Mint
-...
+# Installation Process
 
-### 6. Post-Installation Configuration
-...
+## 1. Downloading Linux Mint
 
-### 7. Verification
-...
+I downloaded the 64-bit Xfce edition of Linux Mint 22.1 "Xia" from the
+official Linux Mint website.
+
+I chose Xfce because the MacBook only has 4 GB of RAM and a lightweight
+desktop environment is better suited to the system's hardware limitations.
+
+The Linux Mint ISO was downloaded to a Windows computer before creating
+the installation media.
+
+---
+
+## 2. Creating the Bootable USB
+
+I used Rufus on Windows to write the Linux Mint ISO to a 64 GB USB drive.
+
+Before using Rufus, I made sure that there was no important data on the
+USB drive because the process would erase the existing contents.
+
+Rufus displayed a warning that all data on the selected USB device would
+be destroyed.
+
+I confirmed the operation and allowed Rufus to write the Linux Mint ISO
+to the USB drive.
+
+### Windows Security
+
+During the USB creation process, Windows Defender's real-time protection
+interfered with writing the Linux installation files to the USB drive.
+
+I temporarily disabled real-time protection so the USB creation process
+could be completed.
+
+After the Linux Mint installation media was created, I removed the USB
+drive and re-enabled Windows Defender's real-time protection.
+
+> **Note:** Security protections should only be disabled when necessary
+> and should be re-enabled as soon as the task is complete.
+
+---
+
+## 3. Booting the MacBook from the USB
+
+After creating the bootable USB, I connected it to the MacBook and restarted
+the system.
+
+I held the **Option (⌥)** key during startup to access the Mac's Startup
+Manager and selected the Linux Mint USB.
+
+---
+
+## 4. Installing Linux Mint XFCE
+
+I booted into the Linux Mint installation environment and began the
+installation process.
+
+The internal MacBook drive was selected as the installation target,
+replacing the existing macOS installation.
+
+> **Warning:** Selecting an option that erases the disk permanently
+> removes the existing operating system and data from that drive.
+> Always verify the correct disk before proceeding.
+
+After the installation completed, the MacBook successfully booted into
+Linux Mint XFCE.
 
 ## Challenges / Troubleshooting
 ...
