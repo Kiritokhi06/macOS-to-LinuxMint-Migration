@@ -36,8 +36,7 @@ I used Apple's Internet Recovery environment to restore macOS Catalina before be
 ### macOS Recovery
 Internet Recovery was accessed using:
 
-'''text
-Option + Command + R
+Option + Command + R (held while MacBook was turning on)
 
 ## Installation Process
 
