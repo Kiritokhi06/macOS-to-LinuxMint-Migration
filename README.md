@@ -36,7 +36,9 @@ I used Apple's Internet Recovery environment to restore macOS Catalina before be
 ### macOS Recovery
 Internet Recovery was accessed using:
 
+```text
 Option + Command + R (held while MacBook was turning on)
+```
 
 After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities environment.
 
@@ -139,7 +141,9 @@ lspci -nnk | grep -A3 -i network
 
 This identified the wireless adapter as:
 
+```text
 Broadcom BCM4331 802.11a/b/g/n
+```
 
 The adapter was detected, but the required firmware wasn't installed.
 
@@ -149,11 +153,15 @@ The adapter was detected, but the required firmware wasn't installed.
 
 With Internet access provided through USB tethering, I installed the required firmware package using `apt`:
 
+```bash
 sudo apt install firmware-b43-installer
+```
 
 After installing the firmware, I rebooted the system:
 
+```bash
 sudo reboot
+```
 
 ---
 
@@ -176,16 +184,21 @@ verify the hardware from within Linux Mint.
 
 I installed `inxi` using:
 
+```bash
 sudo apt install inxi
-
+```
 
 Then I used:
 
+```bash
 inxi -Fxz
+```
 
 The command identified the system as:
 
+```text
 Apple MacBookPro9,2
+```
 
 It also detected:
 
