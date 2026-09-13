@@ -118,11 +118,114 @@ replacing the existing macOS installation.
 After the installation completed, the MacBook successfully booted into
 Linux Mint XFCE.
 
+---
+
 ## Challenges / Troubleshooting
-...
+## Wi-Fi Not Detected
+
+After installing Linux Mint, the MacBook's built-in Wi-Fi was not initially
+available.
+
+Since the MacBook didn't have working Wi-Fi, I needed another way to provide Internet access so that I could download the required firmware.
+
+I used **USB tethering through my iPhone's personal hotspot** to temporarily provide the MacBook with an Internet connection.
+
+Once Internet access was established, I investigated the system's network hardware using:
+
+lspci -nnk | grep -A3 -i network
+
+This identified the wireless adapter as:
+
+Broadcom BCM4331 802.11a/b/g/n
+
+The adapter was detected, but the required firmware wasn't installed.
+
+---
+
+## Installing the Broadcom Firmware
+
+With Internet access provided through USB tethering, I installed the required firmware package using `apt`:
+
+sudo apt install firmware-b43-installer
+
+After installing the firmware, I rebooted the system:
+
+sudo reboot
+
+---
+
+## Verifying Wi-Fi
+
+After rebooting, the wireless adapter was available and nearby networks
+were displayed.
+
+I successfully connected the MacBook to Wi-Fi.
+
+This confirmed that the missing wireless firmware had been successfully
+resolved.
+
+---
+
+# Hardware Verification
+
+After completing the installation and troubleshooting, I used `inxi` to
+verify the hardware from within Linux Mint.
+
+I installed `inxi` using:
+
+sudo apt install inxi
+
+
+Then I used:
+
+inxi -Fxz
+
+The command identified the system as:
+
+Apple MacBookPro9,2
+
+It also detected:
+
+- Intel Core i5-3210M
+- 4 GB RAM
+- Intel HD Graphics 4000
+- Approximately 931 GB of storage
+- Broadcom BCM4331 wireless adapter
+
+The Linux hardware information matched the specifications previously
+recorded from macOS.
+
+---
 
 ## What I Learned
-...
+This project gave me hands-on experience with:
+
+- Linux installation and recovery
+- Creating bootable USB installation media
+- Operating system replacement
+- Disk and partition management
+- Linux hardware identification
+- Package and firmware management
+- Driver troubleshooting
+- Using USB tethering to provide temporary Internet access when Wi-Fi is unavailable
+- Using command-line hardware diagnostic tools
+- Basic Linux system administration
+- Working with older hardware and hardware limitations
+
+One of the most useful parts of the project was troubleshooting the Wi-Fi
+adapter. Instead of accepting that the hardware did not work, I
+used Linux command-line tools to identify the wireless adapter, determined
+that the required firmware was missing, installed the appropriate package,
+and verified that the adapter worked afterward.
+
+---
 
 ## Result
-...
+The old MacBook Pro was successfully converted from macOS Catalina to
+Linux Mint 22.1 Xfce.
+
+The finished system successfully boots into Linux Mint, recognizes its
+hardware, and connects to Wi-Fi.
+
+The repurposed MacBook can now be used as a lightweight system for Linux
+practice, IT study, networking labs, and further experimentation.
