@@ -132,7 +132,10 @@ I used **USB tethering through my iPhone's personal hotspot** to temporarily pro
 
 Once Internet access was established, I investigated the system's network hardware using:
 
+```bash
 lspci -nnk | grep -A3 -i network
+
+```
 
 This identified the wireless adapter as:
 
