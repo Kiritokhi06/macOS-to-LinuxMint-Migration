@@ -115,6 +115,8 @@ the system.
 I held the **Option (⌥)** key during startup to access the Mac's Startup
 Manager and selected the Linux Mint USB.
 
+![MacBook Startup Manager showing EFI Boot](screenshots/mac-startup-manager.png)
+
 ---
 
 ## 4. Installing Linux Mint XFCE
