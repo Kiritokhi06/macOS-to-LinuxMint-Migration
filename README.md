@@ -140,13 +140,11 @@ Linux Mint XFCE.
 After installing Linux Mint, the MacBook's built-in Wi-Fi was not initially
 available.
 
-![Wi-Fi unavailable after Linux Mint installation](screenshots/Linuxmint_Wifi.png)
-
 Since the MacBook didn't have working Wi-Fi, I needed another way to provide Internet access so that I could download the required firmware.
 
 I used **USB tethering through my iPhone's personal hotspot** to temporarily provide the MacBook with an Internet connection.
 
-![USB tethering providing Internet access](screenshots/Linuxmint_Wifi(4).png)
+![Wi-Fi unavailable after Linux Mint installation](screenshots/Linuxmint_Wifi.png)
 
 Once Internet access was established, I investigated the system's network hardware using:
 
