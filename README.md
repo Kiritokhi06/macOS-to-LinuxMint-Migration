@@ -40,6 +40,8 @@ Internet Recovery was accessed using:
 Option + Command + R (held while MacBook was turning on)
 ```
 
+![Internet Recovery](screenshots/Internet_Recovery.jpeg)
+
 After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities environment.
 
 I selected **Reinstall macOS** and installed macOS Catalina.
