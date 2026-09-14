@@ -127,12 +127,16 @@ installation process.
 The internal MacBook drive was selected as the installation target,
 replacing the existing macOS installation.
 
+![Linux Mint installation type showing the erase disk option](screenshots/linuxmint_installation_type.jpeg)
+
 > **Warning:** Selecting an option that erases the disk permanently
 > removes the existing operating system and data from that drive.
 > Always verify the correct disk before proceeding.
 
 After the installation completed, the MacBook successfully booted into
 Linux Mint XFCE.
+
+![Linux Mint installation type showing the erase disk option](screenshots/linuxmint_installation_complete.jpeg)
 
 ---
 
