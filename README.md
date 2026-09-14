@@ -142,7 +142,7 @@ replacing the existing macOS installation.
 After the installation completed, the MacBook successfully booted into
 Linux Mint XFCE.
 
-![Linux Mint installation type showing the erase disk option](screenshots/04-LinuxmintInstall/linuxmint_installation_complete.jpeg)
+![Linux Mint installation type showing the erase disk option](screenshots/04-LinuxMintInstall/linuxmint_installation_complete.jpeg)
 
 ---
 
