@@ -190,6 +190,8 @@ were displayed.
 
 I successfully connected the MacBook to Wi-Fi.
 
+![Linux Mint connected to Wi-Fi](screenshots/Linuxmint_Wifi(5).png)
+
 This confirmed that the missing wireless firmware had been successfully
 resolved.
 
@@ -211,6 +213,8 @@ Then I used:
 ```bash
 inxi -Fxz
 ```
+
+![Linux hardware verification with inxi](screenshots/linuxmint_term.png)
 
 The command identified the system as:
 
@@ -255,6 +259,9 @@ and verified that the adapter worked afterward.
 ---
 
 ## Result
+
+![Linux Mint XFCE after installation](screenshots/linuxmint_firstboot.png)
+
 The old MacBook Pro was successfully converted from macOS Catalina to
 Linux Mint 22.1 Xfce.
 
