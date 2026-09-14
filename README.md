@@ -51,7 +51,11 @@ I selected **Reinstall macOS** and installed macOS Catalina.
 After restoring macOS, I used **About This Mac** to document the original
 hardware.
 
+![Original MacBook hardware info](screenshots/MacOS_2.jpg)
+
 The MacBook contained a 1 TB SATA solid-state drive.
+
+![Original MacBook storage info](screenshots/MacOS_3.jpg)
 
 # Installation Process
 
@@ -59,6 +63,8 @@ The MacBook contained a 1 TB SATA solid-state drive.
 
 I downloaded the 64-bit Xfce edition of Linux Mint 22.1 "Xia" from the
 official Linux Mint website.
+
+![Linux Mint 22.1 Xfce download page](screenshots/LinuxMint_Website.png)
 
 I chose Xfce because the MacBook only has 4 GB of RAM and a lightweight
 desktop environment is better suited to the system's hardware limitations.
@@ -72,11 +78,15 @@ the installation media.
 
 I used Rufus on Windows to write the Linux Mint ISO to a 64 GB USB drive.
 
+![Rufus bootable USB config](screenshots/Rufus(2).jpg)
+
 Before using Rufus, I made sure that there was no important data on the
 USB drive because the process would erase the existing contents.
 
 Rufus displayed a warning that all data on the selected USB device would
 be destroyed.
+
+![Rufus data destruction warning](screenshots/Rufus(5).jpg)
 
 I confirmed the operation and allowed Rufus to write the Linux Mint ISO
 to the USB drive.
@@ -130,9 +140,13 @@ Linux Mint XFCE.
 After installing Linux Mint, the MacBook's built-in Wi-Fi was not initially
 available.
 
+![Wi-Fi unavailable after Linux Mint installation](screenshots/Linuxmint_Wifi.png)
+
 Since the MacBook didn't have working Wi-Fi, I needed another way to provide Internet access so that I could download the required firmware.
 
 I used **USB tethering through my iPhone's personal hotspot** to temporarily provide the MacBook with an Internet connection.
+
+![USB tethering providing Internet access](screenshots/Linuxmint_Wifi(4).png)
 
 Once Internet access was established, I investigated the system's network hardware using:
 
@@ -140,6 +154,8 @@ Once Internet access was established, I investigated the system's network hardwa
 lspci -nnk | grep -A3 -i network
 
 ```
+
+![Broadcom wireless adapter identified with lspci](screenshots/linuxmint_terminal(2).png)
 
 This identified the wireless adapter as:
 
@@ -158,6 +174,8 @@ With Internet access provided through USB tethering, I installed the required fi
 ```bash
 sudo apt install firmware-b43-installer
 ```
+
+![Broadcom firmware installation](screenshots/Linuxmint_Wifi(2).png)
 
 After installing the firmware, I rebooted the system:
 
