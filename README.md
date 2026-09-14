@@ -44,7 +44,8 @@ After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities e
 
 I selected **Reinstall macOS** and installed macOS Catalina.
 
-![macOS Catalina](screenshots/MacOS_Catalina.jpeg)
+![macOS Catalina](screenshots/macOS_Catalina.jpeg
+)
 
 ### Original System Information
 
