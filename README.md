@@ -13,6 +13,10 @@ The MacBook's RAM is soldered directly to the motherboard, meaning it can't be u
 
 The goal of this project was to repurpose an older MacBook into a functional Linux system that could be used for my IT studies and learning Linux system administration.
 
+> **Additional Documentation:**  
+> More detailed screenshots from each stage of the installation and troubleshooting
+> process are available in the [`screenshots`](screenshots/) directory.
+
 ## Hardware
 - MacBook model: MacBook Pro (13-inch, Mid 2012) 
 - CPU: 2.5 GHz Dual-Core Intel Core i5
