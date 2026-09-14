@@ -156,7 +156,7 @@ Since the MacBook didn't have working Wi-Fi, I needed another way to provide Int
 
 I used **USB tethering through my iPhone's personal hotspot** to temporarily provide the MacBook with an Internet connection.
 
-![Wi-Fi unavailable after Linux Mint installation](screenshots/Linuxmint_Wifi.png)
+![Wi-Fi unavailable after Linux Mint installation](screenshots/05-WiFiTroubleshooting/Linuxmint_Wifi.png)
 
 Once Internet access was established, I investigated the system's network hardware using:
 
@@ -165,7 +165,7 @@ lspci -nnk | grep -A3 -i network
 
 ```
 
-![Broadcom wireless adapter identified with lspci](screenshots/linuxmint_terminal(2).png)
+![Broadcom wireless adapter identified with lspci](screenshots/05-WiFiTroubleshooting/linuxmint_terminal(2).png)
 
 This identified the wireless adapter as:
 
@@ -185,7 +185,7 @@ With Internet access provided through USB tethering, I installed the required fi
 sudo apt install firmware-b43-installer
 ```
 
-![Broadcom firmware installation](screenshots/Linuxmint_Wifi(2).png)
+![Broadcom firmware installation](screenshots/05-WiFiTroubleshooting/Linuxmint_Wifi(2).png)
 
 After installing the firmware, I rebooted the system:
 
@@ -202,7 +202,7 @@ were displayed.
 
 I successfully connected the MacBook to Wi-Fi.
 
-![Linux Mint connected to Wi-Fi](screenshots/Linuxmint_Wifi(5).png)
+![Linux Mint connected to Wi-Fi](screenshots/05-WiFiTroubleshooting/Linuxmint_Wifi(5).png)
 
 This confirmed that the missing wireless firmware had been successfully
 resolved.
@@ -226,7 +226,7 @@ Then I used:
 inxi -Fxz
 ```
 
-![Linux hardware verification with inxi](screenshots/linuxmint_term.png)
+![Linux hardware verification with inxi](screenshots/06-HardwareVerification/linuxmint_term.png)
 
 The command identified the system as:
 
@@ -272,7 +272,7 @@ and verified that the adapter worked afterward.
 
 ## Result
 
-![Linux Mint XFCE after installation](screenshots/linuxmint_firstboot.png)
+![Linux Mint XFCE after installation](screenshots/04-LinuxMintInstall/linuxmint_firstboot.png)
 
 The old MacBook Pro was successfully converted from macOS Catalina to
 Linux Mint 22.1 Xfce.
