@@ -44,24 +44,24 @@ Internet Recovery was accessed using:
 Option + Command + R (held while MacBook was turning on)
 ```
 
-![Internet Recovery](screenshots/Internet_Recovery.jpeg)
+![Internet Recovery](screenshots/01-macOS/Internet_Recovery.jpeg)
 
 After connecting to Wi-Fi, the MacBook successfully loaded the macOS Utilities environment.
 
 I selected **Reinstall macOS** and installed macOS Catalina.
 
-![macOS Catalina](screenshots/macOS_Catalina.jpeg)
+![macOS Catalina](screenshots/01-macOS/macOS_Catalina.jpeg)
 
 ### Original System Information
 
 After restoring macOS, I used **About This Mac** to document the original
 hardware.
 
-![Original MacBook hardware info](screenshots/MacOS_2.jpg)
+![Original MacBook hardware info](screenshots/01-macOS/MacOS_2.jpg)
 
 The MacBook contained a 1 TB SATA solid-state drive.
 
-![Original MacBook storage info](screenshots/MacOS_3.jpg)
+![Original MacBook storage info](screenshots/01-macOS/MacOS_3.jpg)
 
 # Installation Process
 
