@@ -70,7 +70,7 @@ The MacBook contained a 1 TB SATA solid-state drive.
 I downloaded the 64-bit Xfce edition of Linux Mint 22.1 "Xia" from the
 official Linux Mint website.
 
-![Linux Mint 22.1 Xfce download page](screenshots/LinuxMint_Website.jpg)
+![Linux Mint 22.1 Xfce download page](screenshots/02-LinuxMintDownload/LinuxMint_Website.jpg)
 
 I chose Xfce because the MacBook only has 4 GB of RAM and a lightweight
 desktop environment is better suited to the system's hardware limitations.
@@ -84,7 +84,7 @@ the installation media.
 
 I used Rufus on Windows to write the Linux Mint ISO to a 64 GB USB drive.
 
-![Rufus bootable USB config](screenshots/Rufus(2).jpg)
+![Rufus bootable USB config](screenshots/03-bootable-usb/Rufus(2).jpg)
 
 Before using Rufus, I made sure that there was no important data on the
 USB drive because the process would erase the existing contents.
@@ -92,7 +92,7 @@ USB drive because the process would erase the existing contents.
 Rufus displayed a warning that all data on the selected USB device would
 be destroyed.
 
-![Rufus data destruction warning](screenshots/Rufus(5).jpg)
+![Rufus data destruction warning](screenshots/03-bootable-usb/Rufus(5).jpg)
 
 I confirmed the operation and allowed Rufus to write the Linux Mint ISO
 to the USB drive.
@@ -121,7 +121,7 @@ the system.
 I held the **Option (⌥)** key during startup to access the Mac's Startup
 Manager and selected the Linux Mint USB.
 
-![MacBook Startup Manager showing EFI Boot](screenshots/mac-startup-manager.png)
+![MacBook Startup Manager showing EFI Boot](screenshots/04-LinuxMintInstall/mac-startup-manager.png)
 
 ---
 
@@ -133,7 +133,7 @@ installation process.
 The internal MacBook drive was selected as the installation target,
 replacing the existing macOS installation.
 
-![Linux Mint installation type showing the erase disk option](screenshots/linuxmint_installation_type.jpeg)
+![Linux Mint installation type showing the erase disk option](screenshots/04-LinuxMintInstall/linuxmint_installation_type.jpeg)
 
 > **Warning:** Selecting an option that erases the disk permanently
 > removes the existing operating system and data from that drive.
@@ -142,7 +142,7 @@ replacing the existing macOS installation.
 After the installation completed, the MacBook successfully booted into
 Linux Mint XFCE.
 
-![Linux Mint installation type showing the erase disk option](screenshots/linuxmint_installation_complete.jpeg)
+![Linux Mint installation type showing the erase disk option](screenshots/04-LinuxmintInstall/linuxmint_installation_complete.jpeg)
 
 ---
 
