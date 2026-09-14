@@ -64,7 +64,7 @@ The MacBook contained a 1 TB SATA solid-state drive.
 I downloaded the 64-bit Xfce edition of Linux Mint 22.1 "Xia" from the
 official Linux Mint website.
 
-![Linux Mint 22.1 Xfce download page](screenshots/LinuxMint_Website.png)
+![Linux Mint 22.1 Xfce download page](screenshots/LinuxMint_Website.jpg)
 
 I chose Xfce because the MacBook only has 4 GB of RAM and a lightweight
 desktop environment is better suited to the system's hardware limitations.
